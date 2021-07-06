@@ -1,6 +1,8 @@
 SPLIT_SCRIPTS = \
 	LemonBench-split.sh \
 	init/*.sh \
+	parts/*.sh \
+	systeminfo/*.sh \
 
 all: LemonBench-merged.sh
 
