@@ -1,3 +1,7 @@
+> This project was forked from [LemonBench/LemonBench](https://github.com/LemonBench/LemonBench) and subsequently modularized. In order to build the main distributable script, the modular script files are merged using [merge-shell](https://github.com/wpyoga/merge-shell).
+>
+> This `faithful-fork` branch produces a 1:1 reproduction of `LemonBench.sh` as `LemonBench-merged.sh`. You can use the `Makefile` to test the faithfulness of this reproduction.
+
 # LemonBench - Linux Server Benchmark Toolkit
 
 Current Version: 20200426 Intl BetaVersion
