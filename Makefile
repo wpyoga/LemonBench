@@ -8,7 +8,7 @@ SPLIT_SCRIPTS = \
 all: LemonBench-merged.sh
 
 LemonBench-merged.sh: $(SPLIT_SCRIPTS)
-	merge-shell.sh LemonBench-split.sh > LemonBench-merged.sh
+	merge-shell LemonBench-split.sh > LemonBench-merged.sh
 	[ "`tail -c 1 LemonBench-merged.sh`" = "`echo`" ] && truncate -s -1 LemonBench-merged.sh
 
 test: LemonBench-merged.sh
