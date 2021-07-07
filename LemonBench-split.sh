@@ -39,52 +39,52 @@
 . init/signal-traps.sh
 
 # @MERGE
-. parts/util-functions.sh
+. components/util-functions.sh
 
 # @MERGE
-. parts/global-actions.sh
+. components/global-actions.sh
 
 # ==================================================
 
 # =============== -> 主程序开始 <- ==================
 
 # @MERGE
-. parts/systeminfo.sh
+. components/systeminfo.sh
 
 # @MERGE
-. parts/benchmark-announcer-functions.sh
+. components/benchmark-announcer-functions.sh
 
 # @MERGE
-. parts/streaming-media-unlock.sh
+. components/streaming-media-unlock.sh
 
 # @MERGE
-. parts/network-speedtest.sh
+. components/network-speedtest.sh
 
 # @MERGE
-. parts/disk-benchmarks.sh
+. components/disk-benchmarks.sh
 
 # @MERGE
-. parts/network-besttrace.sh
+. components/network-besttrace.sh
 
 # @MERGE
-. parts/spoofer-functions.sh
+. components/spoofer-functions.sh
 
 # @MERGE
-. parts/sysbench-cpu.sh
+. components/sysbench-cpu.sh
 
 # @MERGE
-. parts/sysbench-memory.sh
+. components/sysbench-memory.sh
 
 # @MERGE
-. parts/result-generator.sh
+. components/result-generator.sh
 
 # @MERGE
-. parts/dependency-checker.sh
+. components/dependency-checker.sh
 
 # @MERGE
-. parts/main-functions.sh
+. components/main-functions.sh
 
 # @MERGE
-. parts/parse-arguments.sh
+. components/parse-arguments.sh
 # @MERGE
-. parts/select-mode.sh
+. components/select-mode.sh

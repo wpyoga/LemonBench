@@ -1,8 +1,9 @@
 SPLIT_SCRIPTS = \
 	LemonBench-split.sh \
 	init/*.sh \
-	parts/*.sh \
+	components/*.sh \
 	systeminfo/*.sh \
+	mediaunlock/*.sh \
 
 all: LemonBench-merged.sh
 
